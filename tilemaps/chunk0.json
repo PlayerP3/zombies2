@@ -1,0 +1,1719 @@
+{
+    "0": {
+        "0": {
+            "(0.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-96.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-160.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-192.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-288.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-288.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-288.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-288.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-224.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-256.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-128.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(0.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(32.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(64.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(96.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(128.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(128.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(128.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(128.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(160.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(160.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(160.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-64.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
+                },
+                "class": "BgTile"
+            },
+            "(-32.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(0.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(32.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(64.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(96.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(128.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(128.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(128.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(160.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(160.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(192.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(192.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(192.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(192.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(160.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(128.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(128.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(96.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(64.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(32.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(32.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(32.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(32.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(0.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-32.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-64.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-96.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-32.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 180,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(192.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-128.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-160.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-192.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, -128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, -96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, -32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-320.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-288.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-288.0, 32.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-288.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-256.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 96.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 128.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 224.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-224.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-192.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-160.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-128.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-96.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-32.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-64.0, 256.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-288.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            },
+            "(-256.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 33.0,
+                    "hurtbox_height": 33.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Walls/Generic/Wall_32x32.png"
+                },
+                "class": "Wall"
+            }
+        },
+        "1": {
+            "(0.0, 192.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/SpawnPoint1_32x32.png"
+                },
+                "class": "SpawnPoint",
+                "inaccessible":false
+            },
+            "(64.0, -64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/Floor/SpawnPoint1_32x32.png"
+                },
+                "class": "SpawnPoint",
+                "inaccessible":false
+            },
+            "(-64.0, 64.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Roulette/Roulette_38x18.png"
+                },
+                "class": "Weaponbox",
+                "inaccessible":false,
+                "hurtbox_width": 38.0,
+                "hurtbox_height": 20.0,
+                "zoom":1.5
+            },
+            "(192.0, 0.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 90,
+                    "img_path": "Sprites/Miscellaneous/WallBuys/Pistol_32x32.png"
+                },
+                "class": "Wallbuy",
+                "object_of_origin": "Interactable",
+                "name": "Pistol",
+                "ammoCost": 500,
+                "weaponCost": 1000,
+                "effect": "weapon change",
+                "stat_val": "Pistol",
+                "hurtbox_width": 50,
+                "hurtbox_height": 50,
+                "interact_time_limit": 0.4
+            },
+            "(-128.0, -160.0)": {
+                "AnimatedSprite": {
+                    "hurtbox_width": 23.0,
+                    "hurtbox_height": 36.0,
+                    "direction": 0,
+                    "img_path": "Sprites/Miscellaneous/WallBuys/AssaultRifle_32x32.png"
+                },
+                "class": "Wallbuy",
+                "name": "AssaultRifle",
+                "effect": "weapon change",
+                "stat_val": "AssaultRifle",
+                "interact_time_limit": 0.4,
+                "hurtbox_width": 50,
+                "hurtbox_height": 50,
+                "ammoCost": 200,
+                "weaponCost": 1500
+            },
+            "(-224.0, -160.0)": {
+            "AnimatedSprite": {
+                "hurtbox_width": 40.0,
+                "hurtbox_height": 70.0,
+                "direction": 0,
+                "img_path": "Sprites/Miscellaneous/Floor/Door1_32x48.png"
+                },
+                "class": "Door",
+                "cost": 500,
+                "interact_time_limit": 0.4,
+                "object_of_origin":"Game",
+                "connectedChunk":"1"
+                
+            }
+        }
+    }
+}
