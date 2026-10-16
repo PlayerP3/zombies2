@@ -169,7 +169,7 @@ class Spawner(Timer):
 
             self.totalToSpawn = math.ceil(min(0.09*(self.parent_node.round_number**2 -0.0029) * (self.parent_node.round_number + 23.958),100))
             enemy_parameters[self.enemyType]["health"] = 50 + (100 * self.parent_node.round_number)
-            self.maxAllowedAlive = 0
+            self.maxAllowedAlive = 1
             self.timer_limit = max(2*0.5**(self.parent_node.round_number-1),0.1)
 
 

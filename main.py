@@ -15,6 +15,7 @@ from States.Game.gameplay import Gameplay
 from States.Game.quit import Quit
 from wallbuy import Wallbuy
 from pynaccle.animatedsprite import AnimatedSprite
+from pynaccle.bgtile import BgTile
 from door import Door
 from wall import Wall
 from spawnpoint import SpawnPoint
@@ -30,7 +31,7 @@ from weaponbox import Weaponbox
 core = Pyn.Engine()
 
 core.init(states={'SPLASH':Splash(),'GAMEPLAY':Gameplay(),'PAUSED':Paused(),'QUIT':Quit()},
-          classMappings={'Wallbuy':Wallbuy,'BgTile':AnimatedSprite,'Door':Door,'Wall':Wall,'SpawnPoint':SpawnPoint,'Bench':Bench,'Soulbox':Soulbox,'Chunk':Chunk,'Roulette':Roulette,'Weaponbox':Weaponbox},hitboxMetadataJSON='configs/config_hitboxes.json',
+          classMappings={'Wallbuy':Wallbuy,'BgTile':BgTile,'Door':Door,'Wall':Wall,'SpawnPoint':SpawnPoint,'Bench':Bench,'Soulbox':Soulbox,'Chunk':Chunk,'Roulette':Roulette,'Weaponbox':Weaponbox},hitboxMetadataJSON='configs/config_hitboxes.json',
           configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json'])
 
 # spawn initial bg objects
@@ -38,7 +39,7 @@ for chunk in core.tilemapProcessor.openChunks:
 
     for gameobj in core.tilemapProcessor.chunkObj[chunk]:
         gameobj.init()
-        gameobj.spawn(pos=(gameobj.spawnLocation),vertice='center')
+        gameobj.spawn(pos=(gameobj.spawnLocation),vertice='topleft')
 
         # if chunk then dont add accessibility
         if gameobj.__class__.__name__ == 'Chunk':
@@ -97,7 +98,7 @@ objectManager.inactive_pool["Soul"] = [Soul() for _ in range(200)]
 player = Player()
 player.start(attributes=player_parameters)
 core.objectManager.player = player
-core.objectManager.player.spawn((0,0))
+core.objectManager.player.spawn((0,0),vertice='topleft')
 
 def update_health_hud(hud_element:HUD_element):
 
@@ -244,16 +245,16 @@ def run():
 
     core.state.enter()
 
+    quit_log = 0
     while core.playing:
 
         core.update()
         core.clock.tick(60)
-
+        # print(core.clock.get_fps())
 
         # quit_log += 1/60
-        # print(quit_log)
-        # if quit_log >= quit_time:
-        #     playing = False
+        # if quit_log >= 10:
+        #     core.playing = False
 
        
       

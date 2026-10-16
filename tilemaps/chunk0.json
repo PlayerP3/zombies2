@@ -1685,8 +1685,8 @@
             },
             "(-128.0, -160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/WallBuys/AssaultRifle_32x32.png"
                 },
@@ -1695,8 +1695,8 @@
                 "effect": "weapon change",
                 "stat_val": "AssaultRifle",
                 "interact_time_limit": 0.4,
-                "hurtbox_width": 50,
-                "hurtbox_height": 50,
+                "hurtbox_width": 32,
+                "hurtbox_height": 32,
                 "ammoCost": 200,
                 "weaponCost": 1500
             },

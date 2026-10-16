@@ -2,6 +2,7 @@ import pygame,os,re,math,random,string,sys
 import json
 from pygame.math import Vector2
 from pynaccle.statemachine import State
+from pynaccle.tilemap import tilemapProcessor
 
 
 class Idle(State):
@@ -26,9 +27,14 @@ class Idle(State):
         pass
 
     def update(self):
+        
+        # print(tilemapProcessor.accessible_tiles)
 
         # submit event processing
         self.submit_event_processing()
+        
+        print(self.parent_node.current_tile_position,'player poos')
+        print(self.parent_node.hurtbox.center,'player hurtbox')
 
         # run move and collide
         self.parent_node.move_and_collide()
@@ -49,7 +55,7 @@ class Idle(State):
         # self.parent_node.draw_rect(position=self.parent_node.hurtbox.center)
 
         self.parent_node.weapon.update()
-
+        
         # self.parent_node.direction += 10
 
         # print(self.parent_node.hurtbox.center)

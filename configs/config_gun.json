@@ -104,7 +104,7 @@
                 "spriteHeight":36,
                 "hurtbox_width":6,
                 "hurtbox_height":12,
-                "speed":500,
+                "speed":800,
                 "sine_movement_amplitude":1,
                 "object_of_origin":"Player",
                 "travelTimeTimeLimit":0.5,
