@@ -3,8 +3,8 @@
         "0": {
             "(0.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -12,8 +12,8 @@
             },
             "(-32.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -21,8 +21,8 @@
             },
             "(-32.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -30,8 +30,8 @@
             },
             "(0.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -39,8 +39,8 @@
             },
             "(-64.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -48,8 +48,8 @@
             },
             "(-64.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -57,8 +57,8 @@
             },
             "(-96.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -66,8 +66,8 @@
             },
             "(-96.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -75,8 +75,8 @@
             },
             "(-64.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -84,8 +84,8 @@
             },
             "(-64.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -93,8 +93,8 @@
             },
             "(-96.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -102,8 +102,8 @@
             },
             "(-96.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -111,8 +111,8 @@
             },
             "(-128.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -120,8 +120,8 @@
             },
             "(-128.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -129,8 +129,8 @@
             },
             "(-128.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -138,8 +138,8 @@
             },
             "(-128.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -147,8 +147,8 @@
             },
             "(0.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -156,8 +156,8 @@
             },
             "(-32.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -165,8 +165,8 @@
             },
             "(32.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -174,8 +174,8 @@
             },
             "(0.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -183,8 +183,8 @@
             },
             "(-96.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -192,8 +192,8 @@
             },
             "(-128.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -201,8 +201,8 @@
             },
             "(-64.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -210,8 +210,8 @@
             },
             "(32.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -219,8 +219,8 @@
             },
             "(-32.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -228,8 +228,8 @@
             },
             "(32.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -237,8 +237,8 @@
             },
             "(64.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -246,8 +246,8 @@
             },
             "(64.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -255,8 +255,8 @@
             },
             "(64.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -264,8 +264,8 @@
             },
             "(32.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -273,8 +273,8 @@
             },
             "(32.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -282,8 +282,8 @@
             },
             "(64.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -291,8 +291,8 @@
             },
             "(0.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -300,8 +300,8 @@
             },
             "(-32.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -309,8 +309,8 @@
             },
             "(0.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -318,8 +318,8 @@
             },
             "(-32.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -327,8 +327,8 @@
             },
             "(-96.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -336,8 +336,8 @@
             },
             "(-128.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -345,8 +345,8 @@
             },
             "(-64.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -354,8 +354,8 @@
             },
             "(-160.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -363,8 +363,8 @@
             },
             "(-160.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -372,8 +372,8 @@
             },
             "(-160.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -381,8 +381,8 @@
             },
             "(-160.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -390,8 +390,8 @@
             },
             "(-192.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -399,8 +399,8 @@
             },
             "(-192.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -408,8 +408,8 @@
             },
             "(-160.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -417,8 +417,8 @@
             },
             "(-192.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -426,8 +426,8 @@
             },
             "(-192.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -435,8 +435,8 @@
             },
             "(-192.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -444,8 +444,8 @@
             },
             "(-224.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -453,8 +453,8 @@
             },
             "(-192.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -462,8 +462,8 @@
             },
             "(-160.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -471,8 +471,8 @@
             },
             "(64.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -480,8 +480,8 @@
             },
             "(32.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -489,8 +489,8 @@
             },
             "(64.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -498,8 +498,8 @@
             },
             "(96.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -507,8 +507,8 @@
             },
             "(96.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -516,8 +516,8 @@
             },
             "(96.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -525,8 +525,8 @@
             },
             "(96.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -534,8 +534,8 @@
             },
             "(96.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -543,8 +543,8 @@
             },
             "(96.0, 96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -552,8 +552,8 @@
             },
             "(-192.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -561,8 +561,8 @@
             },
             "(-160.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -570,8 +570,8 @@
             },
             "(-160.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -579,8 +579,8 @@
             },
             "(-192.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -588,8 +588,8 @@
             },
             "(-128.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -597,8 +597,8 @@
             },
             "(-128.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -606,8 +606,8 @@
             },
             "(-160.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -615,8 +615,8 @@
             },
             "(-128.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -624,8 +624,8 @@
             },
             "(-192.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -633,8 +633,8 @@
             },
             "(-96.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -642,8 +642,8 @@
             },
             "(-160.0, 224.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -651,8 +651,8 @@
             },
             "(-128.0, 224.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -660,8 +660,8 @@
             },
             "(-192.0, 224.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -669,8 +669,8 @@
             },
             "(-96.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -678,8 +678,8 @@
             },
             "(-64.0, 224.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -687,8 +687,8 @@
             },
             "(-64.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -696,8 +696,8 @@
             },
             "(-96.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -705,8 +705,8 @@
             },
             "(-64.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -714,8 +714,8 @@
             },
             "(-96.0, 224.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -723,8 +723,8 @@
             },
             "(-64.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -732,8 +732,8 @@
             },
             "(-32.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -741,8 +741,8 @@
             },
             "(-32.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -750,8 +750,8 @@
             },
             "(-32.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -759,8 +759,8 @@
             },
             "(0.0, 160.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -768,8 +768,8 @@
             },
             "(0.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -777,8 +777,8 @@
             },
             "(0.0, 128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -786,8 +786,8 @@
             },
             "(-96.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -795,8 +795,8 @@
             },
             "(-96.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -804,8 +804,8 @@
             },
             "(-128.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -813,8 +813,8 @@
             },
             "(-160.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -822,8 +822,8 @@
             },
             "(-160.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -831,8 +831,8 @@
             },
             "(-192.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -840,8 +840,8 @@
             },
             "(-192.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -849,8 +849,8 @@
             },
             "(-224.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -858,8 +858,8 @@
             },
             "(-224.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -867,8 +867,8 @@
             },
             "(-256.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -876,8 +876,8 @@
             },
             "(-288.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -885,8 +885,8 @@
             },
             "(-288.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -894,8 +894,8 @@
             },
             "(-256.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -903,8 +903,8 @@
             },
             "(-256.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -912,8 +912,8 @@
             },
             "(-224.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -921,8 +921,8 @@
             },
             "(-224.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -930,8 +930,8 @@
             },
             "(-256.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -939,8 +939,8 @@
             },
             "(-288.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -948,8 +948,8 @@
             },
             "(-288.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -957,8 +957,8 @@
             },
             "(-224.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -966,8 +966,8 @@
             },
             "(-256.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -975,8 +975,8 @@
             },
             "(-256.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -984,8 +984,8 @@
             },
             "(-128.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -993,8 +993,8 @@
             },
             "(-64.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1002,8 +1002,8 @@
             },
             "(0.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1011,8 +1011,8 @@
             },
             "(-32.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1020,8 +1020,8 @@
             },
             "(32.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1029,8 +1029,8 @@
             },
             "(64.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1038,8 +1038,8 @@
             },
             "(96.0, -96.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1047,8 +1047,8 @@
             },
             "(128.0, -32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1056,8 +1056,8 @@
             },
             "(128.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1065,8 +1065,8 @@
             },
             "(128.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1074,8 +1074,8 @@
             },
             "(128.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1083,8 +1083,8 @@
             },
             "(160.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1092,8 +1092,8 @@
             },
             "(160.0, 32.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1101,8 +1101,8 @@
             },
             "(160.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1110,8 +1110,8 @@
             },
             "(-64.0, -128.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/Floor_32x32.png"
                 },
@@ -1634,8 +1634,8 @@
         "1": {
             "(0.0, 192.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/SpawnPoint1_32x32.png"
                 },
@@ -1644,8 +1644,8 @@
             },
             "(64.0, -64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Miscellaneous/Floor/SpawnPoint1_32x32.png"
                 },
@@ -1654,8 +1654,8 @@
             },
             "(-64.0, 64.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 0,
                     "img_path": "Sprites/Roulette/Roulette_38x18.png"
                 },
@@ -1667,8 +1667,8 @@
             },
             "(192.0, 0.0)": {
                 "AnimatedSprite": {
-                    "hurtbox_width": 23.0,
-                    "hurtbox_height": 36.0,
+                    "hurtbox_width": 32.0,
+                    "hurtbox_height": 32.0,
                     "direction": 90,
                     "img_path": "Sprites/Miscellaneous/WallBuys/Pistol_32x32.png"
                 },

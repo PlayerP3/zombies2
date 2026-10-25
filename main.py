@@ -38,8 +38,13 @@ core.init(states={'SPLASH':Splash(),'GAMEPLAY':Gameplay(),'PAUSED':Paused(),'QUI
 for chunk in core.tilemapProcessor.openChunks:
 
     for gameobj in core.tilemapProcessor.chunkObj[chunk]:
+        
+        
         gameobj.init()
-        gameobj.spawn(pos=(gameobj.spawnLocation),vertice='topleft')
+        gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
+        
+        if gameobj.__class__.__name__ == 'Wall':
+             print('fffff',gameobj.spawnLocation,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
         # if chunk then dont add accessibility
         if gameobj.__class__.__name__ == 'Chunk':
@@ -57,7 +62,7 @@ for chunk in core.tilemapProcessor.openChunks:
 # spawn initial game objects
 for gameobj in core.objectManager.active_pool:
     gameobj.init()
-    gameobj.spawn(pos=gameobj.spawnLocation)
+    gameobj.spawn(pos=(gameobj.spawnLocation),vertice='topleft')
 
 
 import cProfile
@@ -98,7 +103,7 @@ objectManager.inactive_pool["Soul"] = [Soul() for _ in range(200)]
 player = Player()
 player.start(attributes=player_parameters)
 core.objectManager.player = player
-core.objectManager.player.spawn((0,0),vertice='topleft')
+core.objectManager.player.spawn((0,0),vertice='center')
 
 def update_health_hud(hud_element:HUD_element):
 
@@ -218,7 +223,9 @@ def run():
 
             set_attributes(game_object=gameobj,attributes=core.configData.loadedConfigs['buildable'][buildable]["Parts"][bPart])
             gameobj.init()
-            gameobj.spawn(pos=gameobj.spawnLocation)
+            gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
+            
+            print(gameobj.sprite.size,gameobj.hurtbox.size)
 
             # set buidlable object
             gameobj.buildableObject = buildable

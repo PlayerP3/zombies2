@@ -9,7 +9,9 @@ class Wall(Moveable_Object):
     # keep start and end point arguments in case i want to give the bullet some quirky pathing when shot
     def __init__(self):
 
-        Moveable_Object.__init__(self)
+        # Moveable_Object.__init__(self)
+        
+        super().__init__()
     
         
     def init(self):

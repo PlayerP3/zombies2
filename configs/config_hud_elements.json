@@ -217,7 +217,6 @@
 
         "vertice":"center",
         "ignoreCameraOffset":true,
-        "shader":"highlight",
 
         "winPosWidthRatio":0.5,
         "winPosHeightRatio":0.3,
@@ -239,7 +238,7 @@
         "spriteHeight":23,
         "spriteWidthScale":1,
         "spriteHeightScale":1,
-        "shader":"highlight",
+
 
 
         "is_text":true,
