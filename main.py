@@ -32,7 +32,7 @@ core = Pyn.Engine()
 
 core.init(states={'SPLASH':Splash(),'GAMEPLAY':Gameplay(),'PAUSED':Paused(),'QUIT':Quit()},
           classMappings={'Wallbuy':Wallbuy,'BgTile':BgTile,'Door':Door,'Wall':Wall,'SpawnPoint':SpawnPoint,'Bench':Bench,'Soulbox':Soulbox,'Chunk':Chunk,'Roulette':Roulette,'Weaponbox':Weaponbox},hitboxMetadataJSON='configs/config_hitboxes.json',
-          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json'])
+          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json','configs/config_params.json'])
 
 # spawn initial bg objects
 for chunk in core.tilemapProcessor.openChunks:
@@ -43,8 +43,8 @@ for chunk in core.tilemapProcessor.openChunks:
         gameobj.init()
         gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
         
-        if gameobj.__class__.__name__ == 'Wall':
-             print('fffff',gameobj.spawnLocation,gameobj.sprite.get_size(),gameobj.hurtbox.size)
+        if gameobj.__class__.__name__ == 'Wallbuy':
+             print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
         # if chunk then dont add accessibility
         if gameobj.__class__.__name__ == 'Chunk':
@@ -62,8 +62,10 @@ for chunk in core.tilemapProcessor.openChunks:
 # spawn initial game objects
 for gameobj in core.objectManager.active_pool:
     gameobj.init()
-    gameobj.spawn(pos=(gameobj.spawnLocation),vertice='topleft')
+    gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
 
+    if gameobj.__class__.__name__ == 'Wallbuy':
+        print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
 import cProfile
 import pstats
@@ -224,8 +226,6 @@ def run():
             set_attributes(game_object=gameobj,attributes=core.configData.loadedConfigs['buildable'][buildable]["Parts"][bPart])
             gameobj.init()
             gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
-            
-            print(gameobj.sprite.size,gameobj.hurtbox.size)
 
             # set buidlable object
             gameobj.buildableObject = buildable

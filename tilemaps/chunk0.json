@@ -1702,8 +1702,8 @@
             },
             "(-224.0, -160.0)": {
             "AnimatedSprite": {
-                "hurtbox_width": 40.0,
-                "hurtbox_height": 70.0,
+                "hurtbox_width": 70.0,
+                "hurtbox_height": 40.0,
                 "direction": 0,
                 "img_path": "Sprites/Miscellaneous/Floor/Door1_32x48.png"
                 },
@@ -1711,7 +1711,9 @@
                 "cost": 500,
                 "interact_time_limit": 0.4,
                 "object_of_origin":"Game",
-                "connectedChunk":"1"
+                "connectedChunk":"1",
+                "hurtbox_width": 70.0,
+                "hurtbox_height": 40.0
                 
             }
         }
