@@ -26,8 +26,9 @@ class Gameplay(State):
         # self.parent_node.screenManager.windows['win'].bg_offset_x = 400
 
         # self.parent_node.screenManager.windows['win'].pos = (400,400)
-        self.parent_node.screenManager.windows['win'].focus = self.parent_node.objectManager.player.hurtbox.topleft
+        self.parent_node.screenManager.windows['win'].focus = self.parent_node.objectManager.player.hurtbox.center
         self.parent_node.screenManager.windows['win'].track_object_spring()
+        # self.parent_node.screenManager.windows['win'].track_object_spring()
 
         # self.parent_node.screenManager.windows['fog_of_war'].bg_offset_x = self.parent_node.screenManager.windows['win'].bg_offset_x
         # self.parent_node.screenManager.windows['fog_of_war'].bg_offset_y = self.parent_node.screenManager.windows['win'].bg_offset_y

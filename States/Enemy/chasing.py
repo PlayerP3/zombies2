@@ -21,10 +21,10 @@ class Chasing(State):
         # submit event processing
         self.submit_event_processing()
 
-        self.parent_node.pathing_end_position_target = objectManager.player.hurtbox.center
-
+        # self.parent_node.pathing_end_position_target = objectManager.player.hurtbox.center
+# 
         # update pathing and cache
-        self.parent_node.update_pathing_and_cache()
+        self.parent_node.update_pathing_and_cache(start=self.parent_node.hurtbox.center,end=objectManager.player.hurtbox.center)
         # self.parent_node.draw_pathing()
 
         # # movement

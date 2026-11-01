@@ -27,7 +27,7 @@
         {
             "width":1280,
             "height":720,
-            "zoom":2,
+            "zoom":1,
             "stateZoom":{"SPLASH":1,
                         "PAUSED":1,
                         "GAMEPLAY":2}

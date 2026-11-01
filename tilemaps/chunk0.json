@@ -1712,8 +1712,8 @@
                 "interact_time_limit": 0.4,
                 "object_of_origin":"Game",
                 "connectedChunk":"1",
-                "hurtbox_width": 70.0,
-                "hurtbox_height": 40.0
+                "hurtbox_width": 40.0,
+                "hurtbox_height": 65.0
                 
             }
         }

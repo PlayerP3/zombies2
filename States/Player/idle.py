@@ -33,8 +33,8 @@ class Idle(State):
         # submit event processing
         self.submit_event_processing()
         
-        print(self.parent_node.current_tile_position,'player poos')
-        print(self.parent_node.hurtbox.center,'player hurtbox')
+        # print(self.parent_node.current_tile_position,'player poos')
+        # print(self.parent_node.hurtbox.center,'player hurtbox')
 
         # run move and collide
         self.parent_node.move_and_collide()

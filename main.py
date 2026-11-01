@@ -17,7 +17,7 @@ from wallbuy import Wallbuy
 from pynaccle.animatedsprite import AnimatedSprite
 from pynaccle.bgtile import BgTile
 from door import Door
-from wall import Wall
+from pynaccle.wall import Wall
 from spawnpoint import SpawnPoint
 from buildable import Part,Bench
 from soulbox import Soulbox,Soul
@@ -43,8 +43,8 @@ for chunk in core.tilemapProcessor.openChunks:
         gameobj.init()
         gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
         
-        if gameobj.__class__.__name__ == 'Wallbuy':
-             print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
+        # if gameobj.__class__.__name__ == 'Wallbuy':
+        #      print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
         # if chunk then dont add accessibility
         if gameobj.__class__.__name__ == 'Chunk':
@@ -64,8 +64,8 @@ for gameobj in core.objectManager.active_pool:
     gameobj.init()
     gameobj.spawn(pos=gameobj.spawnLocation,vertice='topleft')
 
-    if gameobj.__class__.__name__ == 'Wallbuy':
-        print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
+    # if gameobj.__class__.__name__ == 'Wallbuy':
+    #     print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
 import cProfile
 import pstats
@@ -78,7 +78,7 @@ import pynaccle.moveableobject
 from pynaccle.hud import HUD_element
 from pynaccle.objectsystem import objectManager
 import wallbuy
-from wall import *
+from pynaccle.wall import *
 from pynaccle.pathfinding import Pathfinding,build_astar_graph,build_true_clearance_graph
 from quest import *
 

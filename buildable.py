@@ -2,7 +2,7 @@ from pynaccle.utils import *
 import json
 from pynaccle.moveableobject import Moveable_Object
 from pynaccle.interactable import Interactable,Idle
-from wall import Wall
+from pynaccle.wall import Wall
 import sys
 from pynaccle.tilemap import tilemapProcessor
 from pynaccle.objectsystem import objectManager

@@ -55,7 +55,7 @@ class Splash(State):
             if hudElement.hurtbox.collidepoint((x,y)):
 
                 self.option_select = hudElement.name
-                print(hudElement.hurtbox.center,hudElement.hurtbox.width,hudElement.hurtbox.height)
+                # print(hudElement.hurtbox.center,hudElement.hurtbox.width,hudElement.hurtbox.height)
 
 
 
