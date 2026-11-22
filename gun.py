@@ -110,10 +110,14 @@ class Gun(Weapon,GunStateMachine):
                     bullet.start_position = self.shooting_start_position
                     bullet.hurtbox.center = self.shooting_start_position
                     bullet.target_position = self.final_endpoints[i]
+                    
+                    # determine movement
+                    directionVectorX,directionVectorY = find_direction_vector(bullet.hurtbox.center,bullet.target_position)
+                    bullet.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                                                            acceleration=bullet.acceleration,max_value=bullet.acceleration)
 
-               
-                    # bullet.target_position = bullet.projectile_manager.wielded_by.shooting_target_position
-
+                    # set angle
+                    bullet.currentAngle = (directionVectorX,directionVectorY,0)
 
                     bullet.length_to_target = (Vector2(bullet.target_position) - Vector2(bullet.hurtbox.center)).length()
 
@@ -122,7 +126,7 @@ class Gun(Weapon,GunStateMachine):
 
                     # # update movement vector
                     # bullet.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
-                    #                                             acceleration=bullet.acceleration,Xcceleration_rate=0,max_value=bullet.acceleration)
+                    #                                             acceleration=bullet.acceleration,acceleration_rate=0,max_value=bullet.acceleration)
 
                     # set time bullet will wait until in projectile queue before it is sent to active pool
                     bullet.time_until_active = 0 # always 0 so it gets shot immediately
@@ -134,8 +138,7 @@ class Gun(Weapon,GunStateMachine):
                     # # init the bullet
                     # bullet.init(self.projectile_attributes[bullet_object])
 
-                    # determine movement
-                    bullet.determine_movement(target=bullet.target_position,start=bullet.hurtbox.center)
+                   
                     
                     # add bullet to projectile queue before it is added to active pool
                     self.projectile_queue.append(bullet)
@@ -177,9 +180,14 @@ class Gun(Weapon,GunStateMachine):
                         bullet.start_position = self.shooting_start_position
                         bullet.hurtbox.center = self.shooting_start_position
                         bullet.target_position = self.spread_final_endpoints[i]
-
-                
-                        # bullet.target_position = bullet.projectile_manager.wielded_by.shooting_target_position
+                        
+                        # determine movement
+                        directionVectorX,directionVectorY = find_direction_vector(bullet.hurtbox.center,bullet.target_position)
+                        bullet.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                                                                acceleration=bullet.acceleration,max_value=bullet.acceleration)
+                        
+                        # set angle
+                        bullet.currentAngle = (directionVectorX,directionVectorY,0)
 
 
                         bullet.length_to_target = (Vector2(bullet.target_position) - Vector2(bullet.hurtbox.center)).length()
@@ -189,7 +197,7 @@ class Gun(Weapon,GunStateMachine):
 
                         # # update movement vector
                         # bullet.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
-                        #                                             acceleration=bullet.acceleration,Xcceleration_rate=0,max_value=bullet.acceleration)
+                        #                                             acceleration=bullet.acceleration,acceleration_rate=0,max_value=bullet.acceleration)
 
                         # set time bullet will wait until in projectile queue before it is sent to active pool
                         bullet.time_until_active = 0 # always 0 so it gets shot immediately
@@ -201,8 +209,7 @@ class Gun(Weapon,GunStateMachine):
                         # # init the bullet
                         # bullet.init(self.projectile_attributes[bullet_object])
 
-                        # determine movement
-                        bullet.determine_movement(target=bullet.target_position,start=bullet.hurtbox.center)
+                        
                         
                         # add bullet to projectile queue before it is added to active pool
                         self.projectile_queue.append(bullet)
@@ -219,7 +226,7 @@ class Gun(Weapon,GunStateMachine):
         gameobj.speed *= (self.spreadReduction)
 
 # add the card inactive pool to the object that stores all the pools for different projectiles/on shot effects
-objectManager.inactive_pool["Bullet"] = [Bullet() for _ in range(1500)]
+
 
 
 # # create a weapon for each gun type and init it

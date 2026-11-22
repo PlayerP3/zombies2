@@ -62,7 +62,7 @@ class Item(Interactable):
 
 
 # add the card inactive pool to the object that stores all the pools for different projectiles/on shot effects
-objectManager.inactive_pool["Item"] = [Item() for _ in range(300)]
+# objectManager.inactive_pool["Item"] = [Item() for _ in range(300)]
 
 
 

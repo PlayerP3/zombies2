@@ -37,13 +37,10 @@ class ThrowItem(State):
 
         # update movement vector
         objToThrow.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
-                                                    acceleration=objToThrow.acceleration,Xcceleration_rate=1,max_value=0,Xcceleration_rate_change='negative',
-                                                    reset_on_max_value=True)
-        
+                                                    acceleration=objToThrow.acceleration,max_value=0,acceleration_rate_change='negative',
+                                                    delete_on_max_value=True)
         # find current angle
-        current_angle = math.atan2(direction_vectorY,direction_vectorX) # add offset of 45 degrees
-        
-        objToThrow.direction = math.floor((math.degrees(current_angle)+90)% 360)
+        objToThrow.currentAngle = (direction_vectorX,direction_vectorY,0)
         
         objToThrow.is_active = True
         
@@ -58,7 +55,7 @@ class ThrowItem(State):
         
         # allow movement
         self.parent_node.update_direction_vector()
-        self.parent_node.movement_vectors['movement']['Xcceleration_rate'] = 0
+        self.parent_node.movement_vectors['movement']['acceleration_rate'] = 0
         self.parent_node.movement_vectors['movement']['acceleration'] = 1
 
 

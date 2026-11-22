@@ -164,7 +164,10 @@ class Soulbox(Interactable):
                     set_attributes(game_object=soulObj,attributes=soulbox_parameters[self.name]['SoulInit'])
                     soulObj.init()
                     soulObj.spawn(pos=game_object.hurtbox.center)
-                    soulObj.determine_movement(target=self.hurtbox.center,start=game_object.hurtbox.center)
+                    directionVectorX,directionVectorY = find_direction_vector(game_object.hurtbox.center,self.hurtbox.center)
+                    soulObj.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                                                            acceleration=soulObj.acceleration,max_value=soulObj.acceleration)
+                    soulObj.currentAngle = (directionVectorX,directionVectorY,0)
                     objectManager.add_game_object_to_active_pool(soulObj)
                     self.nearbyObjs.remove(game_object)
 

@@ -26,6 +26,9 @@ class Distracting(State):
         # update position
         self.parent_node.update_position()
         
+        # spin
+        self.parent_node.currentAngle = (0,0,5)
+        
         # the state end condition        
         if self.timer_complete:
             self.emit('DEATH')

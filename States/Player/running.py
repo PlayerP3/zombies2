@@ -14,7 +14,7 @@ class Running(State):
         self.parent_node.acceleration = 2
         self.parent_node.movement_vectors['movement']['acceleration'] = 2
         self.parent_node.update_direction_vector()
-        self.parent_node.movement_vectors['movement']['Xcceleration_rate'] = 0
+        self.parent_node.movement_vectors['movement']['acceleration_rate'] = 0
        
         # init timer
         self.timer_init()

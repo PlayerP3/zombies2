@@ -84,7 +84,7 @@ class Distraction(StateMachine,Bullet):
                         elif self.movement[0] > 0:
                             self.hurtbox.right = game_object.hurtbox.left
                             
-                        self.movement_vectors['movement']['wall_collisionX'] = True
+                        self.movement_vectors['movement']['inversion_collisionX'] = True
 
                     elif axis == 'y':
                         if self.movement[1] < 0:
@@ -93,7 +93,7 @@ class Distraction(StateMachine,Bullet):
                         if self.movement[1] > 0:
                             self.hurtbox.bottom = game_object.hurtbox.top
                             
-                        self.movement_vectors['movement']['wall_collisionY'] = True
+                        self.movement_vectors['movement']['inversion_collisionY'] = True
 
             if game_object.object_of_origin == 'Player':
                 return

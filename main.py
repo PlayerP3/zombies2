@@ -26,6 +26,7 @@ from pynaccle.roulette import Roulette
 from weaponbox import Weaponbox
 from distraction import Distraction
 from enemy import Zombie
+from gun import Bullet
 
 
 # from pynaccle.utils import *
@@ -38,7 +39,7 @@ core = Pyn.Engine()
 
 core.init(states={'SPLASH':Splash(),'GAMEPLAY':Gameplay(),'PAUSED':Paused(),'QUIT':Quit()},
           classMappings={'Wallbuy':Wallbuy,'BgTile':BgTile,'Door':Door,'Wall':Wall,'SpawnPoint':SpawnPoint,'Bench':Bench,'Soulbox':Soulbox,'Chunk':Chunk,'Roulette':Roulette,'Weaponbox':Weaponbox},hitboxMetadataJSON='configs/config_hitboxes.json',
-          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json','configs/config_params.json','configs/config_throwable.json'],gameObjectClass_inactivePoolNumber={Zombie:500,Soul:200,Distraction:50}
+          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json','configs/config_params.json','configs/config_throwable.json'],gameObjectClass_inactivePoolNumber={Zombie:500,Soul:200,Distraction:50,Bullet:1500}
           )
 
 # spawn initial bg objects

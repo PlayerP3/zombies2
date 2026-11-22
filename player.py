@@ -12,6 +12,8 @@ from pynaccle.utils import *
 from pynaccle.screen import gameScreen
 from pynaccle.inventory import Inventory
 from pynaccle.objectsystem import objectManager
+from pynaccle.configs import configData
+import numpy as np
 
 
 pygame.font.init()
@@ -105,8 +107,8 @@ class Player(Moveable_Object,StateMachine):
         self.state = self.states['IDLE']
         
         self.update_movement_vectors(unique_id='movement',direction_vectorX=0,direction_vectorY=0,acceleration=5,
-                                            Xcceleration_rate=0,Xcceleration_rate_change='negative',max_value=0,
-                                            reduce_on_wall_collision=False,reset_on_max_value=False)
+                                            acceleration_rate=0,acceleration_rate_change='negative',max_value=0,
+                                            invert_direction_vectors_on_collision=False,delete_on_max_value=False)
         
         self.states['RUNNING'].timer_speed = 0.1
         super().init()
@@ -155,7 +157,7 @@ class Player(Moveable_Object,StateMachine):
             if 'movement' in self.movement_vectors:
 
                 # by using this method we use whatever velocity existed before and move that way
-                self.movement_vectors['movement']['Xcceleration_rate'] = 3
+                self.movement_vectors['movement']['acceleration_rate'] = 3
                 
 
         # player is moving
@@ -165,7 +167,7 @@ class Player(Moveable_Object,StateMachine):
 
                 self.movement_vectors['movement']['direction_vectorX'] = sum(self.movementx)
                 self.movement_vectors['movement']['direction_vectorY'] = sum(self.movementy)
-                self.movement_vectors['movement']['Xcceleration_rate'] = 0
+                self.movement_vectors['movement']['acceleration_rate'] = 0
                 self.movement_vectors['movement']['acceleration'] = 1
 
     # update movement vectors each frame
@@ -197,15 +199,16 @@ class Player(Moveable_Object,StateMachine):
 
         swap_weapon(self)
         
-    def throw_l2_item(self):
-        
-        # choose an object from the inventory
-        if self.inventory.get_inventory_item_size('L2ItemSlot'):
+    # function deplete/increase stamina
+    def update_stamina(self):
+
+        if self.state.__class__.__name__ != 'Running':
+            self.stamina += configData.loadedConfigs['params']['gameDelta']/2
+
+        if self.state.__class__.__name__ == 'Running':
+            self.stamina -= configData.loadedConfigs['params']['gameDelta']
             
-            # choose the first object
-            selectedObj = self.inventory.inventory['L2ItemSlot'][0]
-            
-            # 
+        self.stamina = np.clip(self.stamina,0,self.original_vars['stamina'])
                     
     
     def update(self):

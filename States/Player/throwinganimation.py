@@ -17,7 +17,7 @@ class ThrowingAnimation(State):
     def enter(self):
 
         self.parent_node.update_direction_vector()
-        self.parent_node.movement_vectors['movement']['Xcceleration_rate'] = 0
+        self.parent_node.movement_vectors['movement']['acceleration_rate'] = 0
         self.parent_node.movement_vectors['movement']['acceleration'] = 1
 
 
