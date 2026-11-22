@@ -90,9 +90,10 @@ class Idle(State):
 
             if event.key == pygame.K_1:
                 self.parent_node.swap_weapon()
-
-            # if event.key == pygame.K_m:
-            #     pynaccle.camera.change_focus = True
+                
+            if event.key == pygame.K_x:
+                if self.parent_node.canThrow:
+                    self.emit('THROWINGANIMATION')
     
         if event.type == pygame.KEYUP:
 

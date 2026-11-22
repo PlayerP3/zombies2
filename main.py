@@ -24,7 +24,13 @@ from soulbox import Soulbox,Soul
 from pynaccle.chunks import Chunk
 from pynaccle.roulette import Roulette
 from weaponbox import Weaponbox
+from distraction import Distraction
+from enemy import Zombie
+
+
 # from pynaccle.utils import *
+
+# build inactive pools
 
 
 # init engine
@@ -32,7 +38,8 @@ core = Pyn.Engine()
 
 core.init(states={'SPLASH':Splash(),'GAMEPLAY':Gameplay(),'PAUSED':Paused(),'QUIT':Quit()},
           classMappings={'Wallbuy':Wallbuy,'BgTile':BgTile,'Door':Door,'Wall':Wall,'SpawnPoint':SpawnPoint,'Bench':Bench,'Soulbox':Soulbox,'Chunk':Chunk,'Roulette':Roulette,'Weaponbox':Weaponbox},hitboxMetadataJSON='configs/config_hitboxes.json',
-          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json','configs/config_params.json'])
+          configs=['configs/config_player.json','configs/config_hud_elements.json','configs/config_buildable.json','configs/config_params.json','configs/config_throwable.json'],gameObjectClass_inactivePoolNumber={Zombie:500,Soul:200,Distraction:50}
+          )
 
 # spawn initial bg objects
 for chunk in core.tilemapProcessor.openChunks:
@@ -67,43 +74,34 @@ for gameobj in core.objectManager.active_pool:
     # if gameobj.__class__.__name__ == 'Wallbuy':
     #     print('fffff',gameobj.spawnLocation,gameobj.hurtbox.topleft,gameobj.hurtbox.center,gameobj.sprite.get_size(),gameobj.hurtbox.size)
 
+
+from pynaccle.pathfinding import Pathfinding,build_astar_graph,build_true_clearance_graph
 import cProfile
 import pstats
 import pynaccle.interactable
 from roundtracker import round_manager
 from player import Player
 from item import Item
-from pynaccle.enemy import Enemy
+
 import pynaccle.moveableobject
 from pynaccle.hud import HUD_element
 from pynaccle.objectsystem import objectManager
 import wallbuy
 from pynaccle.wall import *
-from pynaccle.pathfinding import Pathfinding,build_astar_graph,build_true_clearance_graph
+
 from quest import *
 
 # set random seed
 random.seed()
-    
-# load files in
-with open('configs/config_player.json','r') as player_attributes_file, open('configs/config_hud_elements.json','r') as hudelements_attributes_file, \
-    open('configs/config_buildable.json','r') as buidlable_attributes_file:
 
-    player_parameters = json.load(player_attributes_file)
-    hudelements_parameters = json.load(hudelements_attributes_file)
-    buildable_parameters = json.load(buidlable_attributes_file)
-
-
-
-
-# add objects to inactive pool
-objectManager.inactive_pool["Enemy"] = [Enemy() for _ in range(500)]
-objectManager.inactive_pool["Soul"] = [Soul() for _ in range(200)]
+# # add objects to inactive pool
+# objectManager.inactive_pool["Zombie"] = [Zombie() for _ in range(500)]
+# objectManager.inactive_pool["Soul"] = [Soul() for _ in range(200)]
 
 
 # player
 player = Player()
-player.start(attributes=player_parameters)
+player.start(attributes=core.configData.loadedConfigs['player'])
 core.objectManager.player = player
 core.objectManager.player.spawn((0,0),vertice='center')
 
@@ -167,16 +165,16 @@ def run():
     pauseQuitHud = HUD_element()
 
     # change text hud img path
-    current_health_hud.init(attributes=hudelements_parameters['CurrentHealthHUD'])
-    empty_health_hud.init(attributes=hudelements_parameters['EmptyHealthHUD'])
-    current_health_text_hud.init(attributes=hudelements_parameters['CurrentHealthTextHUD'])
-    round_number_hud.init(attributes=hudelements_parameters['RoundNumberHUD'])
-    ammo_text_hud.init(attributes=hudelements_parameters['AmmoTextHUD'])
-    points_hud.init(attributes=hudelements_parameters['PointsHUD'])
-    splashStartHud.init(attributes=hudelements_parameters['SplashStartHUD'])
-    splashQuitHud.init(attributes=hudelements_parameters['SplashQuitHUD'])
-    pauseResumeHud.init(attributes=hudelements_parameters['PauseResumeHUD'])
-    pauseQuitHud.init(attributes=hudelements_parameters['PauseQuitHUD'])
+    current_health_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['CurrentHealthHUD'])
+    empty_health_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['EmptyHealthHUD'])
+    current_health_text_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['CurrentHealthTextHUD'])
+    round_number_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['RoundNumberHUD'])
+    ammo_text_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['AmmoTextHUD'])
+    points_hud.init(attributes=core.configData.loadedConfigs['hud_elements']['PointsHUD'])
+    splashStartHud.init(attributes=core.configData.loadedConfigs['hud_elements']['SplashStartHUD'])
+    splashQuitHud.init(attributes=core.configData.loadedConfigs['hud_elements']['SplashQuitHUD'])
+    pauseResumeHud.init(attributes=core.configData.loadedConfigs['hud_elements']['PauseResumeHUD'])
+    pauseQuitHud.init(attributes=core.configData.loadedConfigs['hud_elements']['PauseQuitHUD'])
 
     # add any extra processing
     current_health_hud.extraProcessing.append(update_health_hud)
@@ -206,8 +204,8 @@ def run():
     # round_manager.connected_hud = [x for x in pynaccle.hud.hud_elements['RoundNumber'] if x.name == 'RoundNumberHUD'][0]
 
     # add objs to active pool
-    core.objectManager.active_pool.append(player)
-    core.objectManager.active_pool.append(round_manager)
+    core.objectManager.add_game_object_to_active_pool(player)
+    core.objectManager.add_game_object_to_active_pool(round_manager)
 
     # for buildable in buildable_parameters:
     for buildable in core.configData.loadedConfigs['buildable']:

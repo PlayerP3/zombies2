@@ -95,6 +95,10 @@ class Running(State):
 
             if event.key == pygame.K_1:
                 self.parent_node.swap_weapon()
+                
+            if event.key == pygame.K_x:
+                if self.parent_node.canThrow:
+                    self.emit('THROWINGANIMATION')
 
         if event.type == pygame.KEYUP:
 

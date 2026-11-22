@@ -51,7 +51,7 @@ class Shooting(State):
                 for blt in to_remove:
 
                     # remove from queue and add to acitve pool
-                    objectManager.active_pool.append(blt)
+                    objectManager.add_game_object_to_active_pool(blt)
                     self.parent_node.projectile_queue.remove(blt)
 
             # if empty start burst countdown to prevent shooting

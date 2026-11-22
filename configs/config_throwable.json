@@ -1,0 +1,19 @@
+{
+"Distraction":
+    {
+        "spriteWidth":23,
+        "spriteHeight":36,
+        "hurtbox_width":6,
+        "hurtbox_height":12,
+        "acceleration":1,
+        "speed":300,
+        "sine_movement_amplitude":1,
+        "object_of_origin":"Player",
+        "travelTimeTimeLimit":-1,
+        "canRicochetOffWalls":true,
+        "rotation_speed":30,
+        "damage":300,
+        "zlayer_drawing":1,
+        "img_path":"Sprites/Bullets/Bullet_6x16.png"
+            }    
+}

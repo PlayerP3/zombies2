@@ -123,11 +123,11 @@ class Round_Tracker(RoundTrackerStateMachine):
     def set_enemy_allowed(self):
 
         if self.round_number % 5 == 0:
-            self.spawningEnemyTypes = ['Enemy']
+            self.spawningEnemyTypes = ['Zombie']
             # self.spawningEnemyTypes = ['Dogs']
 
         else:
-            self.spawningEnemyTypes = ['Enemy']
+            self.spawningEnemyTypes = ['Zombie']
 
 
             
@@ -150,7 +150,7 @@ class Round_Tracker(RoundTrackerStateMachine):
 
 class Spawner(Timer):
 
-    def __init__(self,enemyType:str='Enemy',timeBetweenSpawns:str=1,totalToSpawn:int=1,maxAllowedAlive:int=1):
+    def __init__(self,enemyType:str='Zombie',timeBetweenSpawns:str=1,totalToSpawn:int=1,maxAllowedAlive:int=1):
 
         # parent node is the round tracker
         self.parent_node = None
@@ -163,6 +163,14 @@ class Spawner(Timer):
 
         Timer.__init__(self)
 
+    @property
+    def enemyTypeAlive(self):
+        
+        if self.enemyType in objectManager.active_pool:
+            return len(objectManager.active_pool[self.enemyType])
+        return 0
+    
+        
     def calculate_metrics_for_round(self):
 
         if self.parent_node.round_number <= 10:
@@ -189,11 +197,8 @@ class Spawner(Timer):
 
     def spawn_enemy(self):
 
-        # get enemy type still alive
-        enemyTypeAlive = [e for e in objectManager.active_pool if (e.__class__.__name__ == self.enemyType and e.object_of_origin == 'Enemy')]
-
         # find if all enemies are dead and then add the total number that were spawned to the round tracker
-        if (len(enemyTypeAlive) == 0) and (self.numberSpawned == self.totalToSpawn):
+        if (self.enemyTypeAlive == 0) and (self.numberSpawned == self.totalToSpawn):
 
             self.parent_node.totalDeadInRound += self.numberSpawned
             self.is_spawning = False
@@ -203,20 +208,18 @@ class Spawner(Timer):
 
         ## does the spawning
         # if limit for enemy hasnt been reached, or if the amount of enemies in the actie pool is the active enemy limit
-        if self.timer_complete and ((self.numberSpawned < self.totalToSpawn) and (len(enemyTypeAlive) < self.maxAllowedAlive)):
+        if self.timer_complete and ((self.numberSpawned < self.totalToSpawn) and (self.enemyTypeAlive < self.maxAllowedAlive)):
 
             enemy_object = objectManager.inactive_pool[self.enemyType][0]
 
             # init object
-            set_attributes(game_object=enemy_object,attributes=enemy_parameters['Enemy'])
+            set_attributes(game_object=enemy_object,attributes=enemy_parameters[self.enemyType])
             enemy_object.init()
             store_original_vars(game_object=enemy_object)
             # enemy_object.spawn(random.choice(self.parent_node.spawnLocations))
             enemy_object.spawn(random.choice(self.parent_node.update_spawn_locations()))
-
-
-            objectManager.active_pool.append(enemy_object)
-            objectManager.inactive_pool[self.enemyType].remove(enemy_object)
+            
+            objectManager.add_game_object_to_active_pool(enemy_object)
 
             self.numberSpawned += 1
 

@@ -5,10 +5,13 @@ from pynaccle.statemachine import StateMachine
 from States.Player.idle import Idle
 from States.Player.walking import Walking
 from States.Player.running import Running
+from States.Player.throwinganimation import ThrowingAnimation
+from States.Player.throwitem import ThrowItem
 from pynaccle.moveableobject import Moveable_Object
 from pynaccle.utils import *
 from pynaccle.screen import gameScreen
 from pynaccle.inventory import Inventory
+from pynaccle.objectsystem import objectManager
 
 
 pygame.font.init()
@@ -18,11 +21,6 @@ pygame.font.init()
 # self.current_wepaon_slot is the key used to access the weapon object in the weapon slot dictionary
 # self.left_hand_weapon_slots is a dictioanry with the weapon number as key and the weapon object object as a value
 # self.left_hand_weapon_slots[self.weapon_choice] returns weapon object if the slot is filled
-
-
-    
-
-
 
 class Player(Moveable_Object,StateMachine):
 
@@ -47,6 +45,9 @@ class Player(Moveable_Object,StateMachine):
 
         # total number of weapons player can carry
         self.weaponCarryLimit = 2
+        
+        # total number of distraction objects
+        self.distractionItemCarryLimit = 3
 
         # list of items
         self.picked_items = []
@@ -68,6 +69,10 @@ class Player(Moveable_Object,StateMachine):
         self.inventory.inventory['weapons'] = []
         give_weapon(gameobj=self,weaponName=self.starting_weapon,weaponClass=Gun,weaponParams=gun_parameters)
         
+        # remove after testing
+        self.inventory.add_item(k1='L2ItemSlot',v=objectManager.inactive_pool['Distraction'][0])
+        
+        objectManager.inactive_pool['Distraction'].remove(objectManager.inactive_pool['Distraction'][0])
     
 
 
@@ -88,7 +93,10 @@ class Player(Moveable_Object,StateMachine):
 
         self.states = {'IDLE':Idle(),
                        'WALKING':Walking(),
-                       'RUNNING':Running()}
+                       'RUNNING':Running(),
+                       'THROWINGANIMATION':ThrowingAnimation(),
+                       'THROWITEM':ThrowItem()
+                       }
         
         # set parent node for player states
         for x in self.states:
@@ -104,6 +112,14 @@ class Player(Moveable_Object,StateMachine):
         super().init()
 
         
+    # function to check if player can throw something
+    @property
+    def canThrow(self):
+        
+        if self.inventory.inventory['L2ItemSlot']:
+            return True
+        return False
+    
     # handle collision damage etc
     def handle_collision(self,game_object:object,axis:str):
 
@@ -181,6 +197,17 @@ class Player(Moveable_Object,StateMachine):
 
         swap_weapon(self)
         
+    def throw_l2_item(self):
+        
+        # choose an object from the inventory
+        if self.inventory.get_inventory_item_size('L2ItemSlot'):
+            
+            # choose the first object
+            selectedObj = self.inventory.inventory['L2ItemSlot'][0]
+            
+            # 
+                    
+    
     def update(self):
         
         # reset killed 

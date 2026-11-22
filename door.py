@@ -74,18 +74,3 @@ class Door(Interactable,Wall):
     def update_data(self):
 
         self.update_position()
-
-# for wb in wallbuy_parameters:
-
-#     wbobj = Wallbuy()
-
-#     set_attributes(game_object=wbobj,attributes=wallbuy_parameters[wb])
-#     wbobj.init()
-#     store_original_vars(game_object=wbobj)
-
-#     wbobj.spawn(pos=wallbuy_parameters[wb]['pos'])
-
-#     pynaccle.active_pool.append(wbobj)
-
-
-# print(Door.__mro__)

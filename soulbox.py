@@ -165,7 +165,7 @@ class Soulbox(Interactable):
                     soulObj.init()
                     soulObj.spawn(pos=game_object.hurtbox.center)
                     soulObj.determine_movement(target=self.hurtbox.center,start=game_object.hurtbox.center)
-                    objectManager.active_pool.append(soulObj)
+                    objectManager.add_game_object_to_active_pool(soulObj)
                     self.nearbyObjs.remove(game_object)
 
 
