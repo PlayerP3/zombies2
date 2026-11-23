@@ -36,7 +36,7 @@ class ThrowItem(State):
         direction_vectorX, direction_vectorY = Vector2(objToThrow.target_position) - Vector2(objToThrow.start_position)
 
         # update movement vector
-        objToThrow.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
+        objToThrow.add_movement_vector(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
                                                     acceleration=objToThrow.acceleration,max_value=0,acceleration_rate_change='negative',
                                                     delete_on_max_value=True)
         # find current angle

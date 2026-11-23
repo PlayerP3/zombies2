@@ -106,7 +106,7 @@ class Player(Moveable_Object,StateMachine):
         
         self.state = self.states['IDLE']
         
-        self.update_movement_vectors(unique_id='movement',direction_vectorX=0,direction_vectorY=0,acceleration=5,
+        self.add_movement_vector(unique_id='movement',direction_vectorX=0,direction_vectorY=0,acceleration=5,
                                             acceleration_rate=0,acceleration_rate_change='negative',max_value=0,
                                             invert_direction_vectors_on_collision=False,delete_on_max_value=False)
         
@@ -209,7 +209,16 @@ class Player(Moveable_Object,StateMachine):
             self.stamina -= configData.loadedConfigs['params']['gameDelta']
             
         self.stamina = np.clip(self.stamina,0,self.original_vars['stamina'])
-                    
+        
+    def find_closest_interactable(self):
+        
+        # get all nearby interavtables
+        interactables = [x for x in self.surroundingGameObjects if array_is_in_array(get_mro(gameObject=x),['Interactable'])]
+
+        # if interactables find the closest one
+        if interactables:
+            closestInteractable = min(interactables,key=lambda x:find_dist_between_points(x.hurtbox.center,self.hurtbox.center))
+            closestInteractable.interactingObj = self
     
     def update(self):
         

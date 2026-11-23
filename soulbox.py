@@ -33,11 +33,8 @@ class Soul(Moveable_Object):
     # collision check
     def collision_check(self,axis:str='y'):
 
-        # find surrounding objects
-        self.find_surrounding_game_objects()   
-
         # go through all possible game objects
-        for game_object in self.surrounding_game_objects:
+        for game_object in self.surroundingGameObjects:
 
             if game_object != self.attachedSoulbox:
                 continue
@@ -165,7 +162,7 @@ class Soulbox(Interactable):
                     soulObj.init()
                     soulObj.spawn(pos=game_object.hurtbox.center)
                     directionVectorX,directionVectorY = find_direction_vector(game_object.hurtbox.center,self.hurtbox.center)
-                    soulObj.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                    soulObj.add_movement_vector(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
                                                             acceleration=soulObj.acceleration,max_value=soulObj.acceleration)
                     soulObj.currentAngle = (directionVectorX,directionVectorY,0)
                     objectManager.add_game_object_to_active_pool(soulObj)

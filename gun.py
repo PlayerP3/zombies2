@@ -113,7 +113,7 @@ class Gun(Weapon,GunStateMachine):
                     
                     # determine movement
                     directionVectorX,directionVectorY = find_direction_vector(bullet.hurtbox.center,bullet.target_position)
-                    bullet.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                    bullet.add_movement_vector(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
                                                             acceleration=bullet.acceleration,max_value=bullet.acceleration)
 
                     # set angle
@@ -125,7 +125,7 @@ class Gun(Weapon,GunStateMachine):
                     # direction_vectorX, direction_vectorY = Vector2(bullet.target_position) - Vector2(bullet.rect.center)
 
                     # # update movement vector
-                    # bullet.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
+                    # bullet.add_movement_vector(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
                     #                                             acceleration=bullet.acceleration,acceleration_rate=0,max_value=bullet.acceleration)
 
                     # set time bullet will wait until in projectile queue before it is sent to active pool
@@ -183,7 +183,7 @@ class Gun(Weapon,GunStateMachine):
                         
                         # determine movement
                         directionVectorX,directionVectorY = find_direction_vector(bullet.hurtbox.center,bullet.target_position)
-                        bullet.update_movement_vectors(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
+                        bullet.add_movement_vector(unique_id='movement',direction_vectorX=directionVectorX,direction_vectorY=directionVectorY,
                                                                 acceleration=bullet.acceleration,max_value=bullet.acceleration)
                         
                         # set angle
@@ -196,7 +196,7 @@ class Gun(Weapon,GunStateMachine):
                         # direction_vectorX, direction_vectorY = Vector2(bullet.target_position) - Vector2(bullet.rect.center)
 
                         # # update movement vector
-                        # bullet.update_movement_vectors(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
+                        # bullet.add_movement_vector(unique_id='movement',direction_vectorX=direction_vectorX,direction_vectorY=direction_vectorY,
                         #                                             acceleration=bullet.acceleration,acceleration_rate=0,max_value=bullet.acceleration)
 
                         # set time bullet will wait until in projectile queue before it is sent to active pool

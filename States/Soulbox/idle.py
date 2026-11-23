@@ -38,10 +38,10 @@ class Idle(State):
     def collision_check(self,axis:str='y'):
 
         # find surrounding objects
-        self.parent_node.find_surrounding_game_objects()  
+          
 
         # go through all possible game objects
-        for game_object in self.parent_node.surrounding_game_objects:
+        for game_object in self.parent_node.surroundingGameObjects:
 
             # skip collision if game object exists already
             if game_object in self.parent_node.nearbyObjs:
